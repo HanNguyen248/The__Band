@@ -153,7 +153,8 @@ html{
 }
 
 #nav .nav-arrow-down{
-    font-size: 12px;
+    font-size: 24px;
+    padding-left: 8px;
 }
 
 #header .mobile-menu-btn{
@@ -193,7 +194,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('../img/slider1.jpg') top center / cover no-repeat;
+    background: url('/assets/css/img/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -359,7 +360,7 @@ html{
     opacity: 1.2;
 }
 
-.contact-info i[class*="ti-"]{
+.contact-info i[class*="fas"]{
     width: 30px;
     display: inline-block;
 }
